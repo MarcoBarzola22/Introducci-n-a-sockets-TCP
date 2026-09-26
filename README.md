@@ -3,14 +3,14 @@
 Repositorio con las resoluciones de los trabajos prácticos de la materia Sistemas Distribuidos y Paralelos de la Universidad Nacional de Villa Mercedes.
 
 ## Trabajo Práctico N° 1: Introducción a sockets TCP
-Implementación de un modelo cliente-servidor básico en Python utilizando el módulo estándar `socket`[cite: 3].
+Implementación de un modelo cliente-servidor básico en Python utilizando el módulo estándar `socket`.
 
 **Características implementadas:**
-* Creación de un servidor *Echo* TCP local (puerto 65432)[cite: 3].
-* Gestión del ciclo de vida del socket (`bind`, `listen`, `accept`, `connect`, `close`)[cite: 3].
-* Envío y recepción de flujos de bytes bidireccionales (`encode` y `decode`)[cite: 3].
-* Medición del tiempo de ida y vuelta (RTT) para cada solicitud[cite: 3].
-* Cierre ordenado de la conexión al recibir un comando específico ("SALIR")[cite: 3].
+* Creación de un servidor *Echo* TCP local (puerto 65432).
+* Gestión del ciclo de vida del socket (`bind`, `listen`, `accept`, `connect`, `close`).
+* Envío y recepción de flujos de bytes bidireccionales (`encode` y `decode`).
+* Medición del tiempo de ida y vuelta (RTT) para cada solicitud.
+* Cierre ordenado de la conexión al recibir un comando específico ("SALIR").
 
 **Instrucciones de ejecución:**
 1. Iniciar el servidor: `python tp1/servidor_echo.py`
